@@ -1,0 +1,32 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode
+.idea
+.git
+.gitignore
+README.md
+metadata.json
+package-lock.json
+tsconfig.json
+vite.config.ts
+vercel.json
+index.html
+src
+public
+# Only exclude what's not needed for the build process
+# Actually, Vercel needs src, index.html, etc. to build.
+# Let's just exclude the obvious ones.
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode
+.idea
